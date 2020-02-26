@@ -198,6 +198,9 @@ main {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all .5s ease-out; }
+.work-url:hover {
+  color: red;
+}
 
 /* Contact */
 
