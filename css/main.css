@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/pic.jpg");
+      background: url("../img/pic.png");
       border-radius: 50%;
       border: solid 3px #eece1a;
       background-size: cover; }
@@ -288,7 +288,7 @@ main {
     height: 205px;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/pic_small.jpg");
+      background: url("../img/pic.png");
       background-position: center;
       width: 150px;
       height: 150px; }
