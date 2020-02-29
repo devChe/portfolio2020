@@ -55,9 +55,10 @@
       width: 250px;
       height: 250px;
       background: url("../img/pic.png");
-      border-radius: 50%;
-      border: solid 3px #eece1a;
-      background-size: cover; }
+      /* border-radius: 50%; */
+      /* border: solid 3px #eece1a; */
+      background-size: contain;
+      background-repeat: no-repeat; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all .5s ease-out; }
@@ -167,7 +168,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid;
+    /* border: #eece1a 3px solid; */
     width: 200px;
     height: 200px; }
   .about-info .bio {
@@ -290,8 +291,10 @@ main {
     .menu-branding .portrait {
       background: url("../img/pic.png");
       background-position: center;
+      background-size: contain;
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      border-radius: 50%; }
   .about-info {
     grid-template-areas: 'bioimage'
  'bio'
